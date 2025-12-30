@@ -104,6 +104,6 @@ export default defineConfig(async () => {
           additionalData: '@use "@/assets/styles/variables.scss" as vars;'
         }
       }
-    }
+    },
   };
 })

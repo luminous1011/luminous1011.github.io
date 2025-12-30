@@ -1,5 +1,5 @@
 
-import '@arco-design/web-vue/dist/arco.css';
+// import '@arco-design/web-vue/dist/arco.css';
 import "virtual:uno.css";
 import './assets/styles/global.scss'
 
