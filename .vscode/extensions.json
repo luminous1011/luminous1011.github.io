@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "lokalise.i18n-ally",
+    "antfu.iconify",
+    "antfu.unocss",
+    "vitest.explorer",
+    "antfu.where-am-i",
+    "dbaeumer.vscode-eslint"
+  ]
+}

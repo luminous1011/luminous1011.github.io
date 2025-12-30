@@ -1,0 +1,61 @@
+{
+  "name": "xyzw-token-manager",
+  "version": "2.0.0",
+  "type": "module",
+  "description": "XYZW游戏Token管理器 - 支持Base64导入和WebSocket连接管理",
+  "main": "src/main.js",
+  "scripts": {
+    "testr": "node ./test/roleToken.js",
+    "testd": "node ./test/token.js",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint src --ext .vue,.js,.ts --fix",
+    "format": "prettier --write \"src/**/*.{js,vue,ts,css,scss}\""
+  },
+  "dependencies": {
+    "@arco-design/web-vue": "^2.57.0",
+    "@vicons/ionicons5": "^0.12.0",
+    "@vicons/material": "^0.12.0",
+    "@vueuse/core": "^13.9.0",
+    "axios": "^1.12.2",
+    "event-emitter3": "^1.0.4",
+    "html2canvas": "^1.4.1",
+    "idb": "^8.0.3",
+    "lz4js": "^0.2.0",
+    "moment": "^2.30.1",
+    "naive-ui": "^2.43.1",
+    "p-queue": "^7.4.1",
+    "pinia": "^2.3.1",
+    "vue": "^3.5.22",
+    "vue-i18n": "^11.1.12",
+    "vue-router": "^4.6.3",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@iconify-json/mdi": "^1.2.3",
+    "@intlify/unplugin-vue-i18n": "^6.0.8",
+    "@types/node": "^20.19.21",
+    "@vitejs/plugin-vue": "^5.2.4",
+    "@vue/tsconfig": "^0.8.1",
+    "sass": "^1.93.2",
+    "typescript": "^5.9.3",
+    "unocss": "^0.61.9",
+    "unplugin-auto-import": "^19.3.0",
+    "unplugin-vue-components": "^28.4.1",
+    "unplugin-vue-router": "^0.8.8",
+    "vite": "^5.4.11"
+  },
+  "keywords": [
+    "vue",
+    "token-management",
+    "websocket",
+    "base64",
+    "game-automation",
+    "xyzw",
+    "frontend"
+  ],
+  "author": "XYZW Team",
+  "license": "CC-BY-NC-SA-4.0",
+  "packageManager": "pnpm@10.19.0"
+}
